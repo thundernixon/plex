@@ -23,6 +23,13 @@ Testing at http://159.65.243.73/
 - The new fonts have kerning between more pairs
 - The new fonts make small refinements, e.g. the /gcaron uses a low-eared /g as a base to be more legible
 
+#### Serif
+
+- Similar readability refinements
+- Added Text weight
+- Glyphs appear to be slightly lighter in weight
+- Only three new glyphs, rather than entire Greek alphabet as Sans has
+
 
 #### Sans Condensed
 
@@ -40,6 +47,32 @@ INFO:diffenator.diff:'diff_marks'  15.11 ms
 INFO:diffenator.diff:'diff_marks'  0.54 ms
 **Diffenator**
 ```
+
+It did create the requested folder for output gifs, but this folder was empty.
+
+#### Mono
+
+Similar to Sans Condensed, diffenator didn't really check Mono styles.
+
+```
+$ diff-fonts gfonts-qa/currently-hosted-fonts/ibmplexmono IBM-Plex-Mono/fonts/complete/ttf
+-------------------------------------------------------------
+diffing IBMPlexMono-Bold.ttf
+WARNING:diffenator.dump:Font doesn't have a GPOS kern feature
+WARNING:diffenator.dump:Font doesn't have a GPOS kern feature
+INFO:diffenator.diff:'diff_nametable'  0.10 ms
+INFO:diffenator.diff:'diff_attribs'  0.15 ms
+INFO:diffenator.diff:'diff_glyphs'  2.95 ms
+INFO:diffenator.diff:'diff_kerning'  0.68 ms
+INFO:diffenator.diff:'diff_metrics'  1.42 ms
+INFO:diffenator.diff:'diff_marks'  19.13 ms
+INFO:diffenator.diff:'diff_marks'  0.54 ms
+**Diffenator**
+```
+
+#### Devanagari, Hebrew, Thai
+
+These members of the Plex family will be completely new to Google Fonts.
 
 ## Diffbrowsers
 
