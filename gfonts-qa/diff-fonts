@@ -1,0 +1,19 @@
+#!/bin/bash
+
+set -e
+
+# get args
+fontsBefore="$1"
+fontsAfter="$2"
+
+echo $fontsBefore
+echo $fontsAfter
+
+for file in $fontsBefore/*.ttf; do 
+    fileName=$(basename $file)
+    echo $fileName
+    # echo $file
+
+
+    diffenator $file $fontsAfter/$fileName
+done
