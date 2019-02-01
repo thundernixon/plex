@@ -9,11 +9,6 @@ Marc: it's not going to pass fontbakery; they have separate standards
 
 ## Diffenator
 
-Testing at http://159.65.243.73/
-
-- [ ] testing sans
-
-
 ### Results show...
 
 #### Sans
@@ -76,6 +71,7 @@ These members of the Plex family will be completely new to Google Fonts.
 
 ## Diffbrowsers
 
+Browser testing & Cross-platform testing:
 https://github.com/googlefonts/diffbrowsers
 
-## Browser testing? Cross-platform testing?
+Requires a BrowserStack account, so Marc will have to run these checks (or I could, with credentials).
