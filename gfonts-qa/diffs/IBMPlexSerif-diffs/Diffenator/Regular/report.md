@@ -1,0 +1,214 @@
+# Diffenator
+
+Displaying the 20 most significant items in each table. To increase use the '-ol' flag
+
+
+### names new: 31
+
+id | string
+--- | --- | 
+(0, 1, 0, 0) | Copyright 2018 IBM Corp. All rights reserved.
+(1, 1, 0, 0) | IBM Plex Serif
+(2, 1, 0, 0) | Regular
+(3, 1, 0, 0) | 2.5;IBM ;IBMPlexSerif
+(4, 1, 0, 0) | IBM Plex Serif
+(5, 1, 0, 0) | Version 2.5
+(6, 1, 0, 0) | IBMPlexSerif
+(7, 1, 0, 0) | IBM Plex™ is a trademark of IBM Corp, registered in many jurisdictions worldwide.
+(7, 3, 1, 1033) | IBM Plex™ is a trademark of IBM Corp, registered in many jurisdictions worldwide.
+(8, 1, 0, 0) | Bold Monday
+(8, 3, 1, 1033) | Bold Monday
+(9, 1, 0, 0) | Mike Abbink, Paul van der Laan, Pieter van Rosmalen
+(9, 3, 1, 1033) | Mike Abbink, Paul van der Laan, Pieter van Rosmalen
+(11, 1, 0, 0) | http://www.boldmonday.com
+(11, 3, 1, 1033) | http://www.boldmonday.com
+(12, 1, 0, 0) | http://www.ibm.com
+(12, 3, 1, 1033) | http://www.ibm.com
+(13, 1, 0, 0) | This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
+(13, 3, 1, 1033) | This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
+(14, 1, 0, 0) | http://scripts.sil.org/OFL
+
+### names modified: 2
+
+id | string_a | string_b
+--- | --- | --- | 
+(3, 3, 1, 1033) | 2.1;IBM ;IBMPlexSerif | 2.5;IBM ;IBMPlexSerif
+(5, 3, 1, 1033) | Version 2.1 | Version 2.5
+
+### attribs modified: 15
+
+table | attrib | value_a | value_b
+--- | --- | --- | --- | 
+OS/2 | usWinDescent | 275 | 286
+OS/2 | sTypoDescender | -220 | -275
+OS/2 | usWinAscent | 1025 | 1150
+OS/2 | ulUnicodeRange2 | 1342185595 | 1342185531
+OS/2 | sTypoAscender | 780 | 1025
+OS/2 | sTypoLineGap | 300 | 0
+OS/2 | yStrikeoutSize | 48 | 44
+head | xMax | 1257 | 1227
+head | fontRevision | 2.00099 | 2.00499
+head | yMax | 1127 | 1122
+head | xMin | -265 | -252
+head | yMin | -250 | -246
+head | modified | 2018/02/16 08:54:28 | 2018/09/19 11:49:41
+post | underlineThickness | 48 | 44
+post | underlinePosition | -76 | -78
+
+### glyphs new: 3
+
+glyph | area | string
+--- | --- | --- | 
+currency | -111774 | ¤
+uni2032 | -20160 | ′
+uni2033 | -40320 | ″
+
+### glyphs modified: 773
+
+glyph | diff | string
+--- | --- | --- | 
+germandbls.alt01 | 0.0742 | ß
+uni04C1 | 0.0718 | Ӂ
+uni04DC | 0.0696 | Ӝ
+uni0496 | 0.0679 | Җ
+jcircumflex | 0.066 | ĵ
+florin | 0.0659 | ƒ
+perthousand | 0.0657 | ‰
+uni20A9 | 0.0657 | ₩
+uni0416 | 0.0654 | Ж
+gcommaaccent | 0.0649 | ģ
+uni2116 | 0.0645 | №
+gcircumflex.alt01 | 0.0642 | ĝ
+uni1EAB | 0.0641 | ẫ
+aringacute | 0.0641 | ǻ
+uni1EB5 | 0.0641 | ẵ
+uni1EA7 | 0.064 | ầ
+gbreve.alt01 | 0.0638 | ğ
+uni0419 | 0.0637 | Й
+uni1EA9 | 0.0632 | ẩ
+gdotaccent | 0.0627 | ġ
+
+### kerns new: 61
+
+left | right | value | string
+--- | --- | --- | --- | 
+braceleft | jacute | 70 | {
+bracketleft | jacute | 70 | [
+f | IJacute | 50 | f
+exclamdown | jacute | 20 | ¡
+racute | Jacute | -20 | ŕ
+r | Jacute | -20 | r
+rcommaaccent | Jacute | -20 | ŗ
+rcaron | Jacute | -20 | ř
+Eth | Jacute | -14 | Ð
+D | Jacute | -14 | D
+Dcaron | Jacute | -14 | Ď
+Dcroat | Jacute | -14 | Đ
+Jacute | g.alt02 | -10 | 
+idieresis | Jacute | 10 | ï
+jacute | Zdotaccent | -10 | Ż
+uni1EC9 | Jacute | 10 | ỉ
+Jacute | g | -10 | g
+Ldot | Jacute | 10 | Ŀ
+icircumflex | Jacute | 10 | î
+ibreve | Jacute | 10 | ĭ
+
+### kerns modified: 84
+
+left | right | diff | string
+--- | --- | --- | --- | 
+g.alt02 | underscore | -80.0 | _
+g.alt02 | quotesinglbase | -63.0 | ‚
+g.alt02 | comma | -63.0 | ,
+g.alt02 | period | -63.0 | .
+g.alt02 | quotedblbase | -63.0 | „
+g.alt02 | ellipsis | -63.0 | …
+parenleft | g.alt02 | 60.0 | (
+Ygrave | g.alt02 | 55.0 | Ỳ
+Ycircumflex | g.alt02 | 55.0 | Ŷ
+Ydieresis | g.alt02 | 55.0 | Ÿ
+uni1EF6 | g.alt02 | 55.0 | Ỷ
+uni1EF4 | g.alt02 | 55.0 | Ỵ
+Yacute | g.alt02 | 55.0 | Ý
+uni1EF8 | g.alt02 | 55.0 | Ỹ
+Y | g.alt02 | 55.0 | Y
+g.alt02 | slash | -50.0 | /
+g.alt02 | Aacute | -40.0 | Á
+g.alt02 | Adieresis | -40.0 | Ä
+g.alt02 | Atilde | -40.0 | Ã
+g.alt02 | Agrave | -40.0 | À
+
+### metrics modified: 644
+
+glyph | diff_adv
+--- | --- | 
+perthousand | 30.0
+uni0496 | 28.0
+OE | 27.000000000000114
+uni04DC | 27.0
+uni0416 | 27.0
+uni04C1 | 27.0
+uni2116 | 26.0
+uni0429 | 25.000000000000114
+one | 25.0
+uni0428 | 24.0
+uni042E | 23.999999999999886
+uni0497 | 23.0
+uni20A8 | 23.0
+uni04A4 | 23.0
+uni040A | 22.000000000000114
+uni042B | 22.0
+uni0449 | 22.0
+uni04F8 | 22.0
+AE | 21.0
+uni0436 | 21.0
+
+### marks_new: 3534
+
+base_glyph | base_x | base_y | mark_glyph | mark_x | mark_y
+--- | --- | --- | --- | --- | --- | 
+uni0455 | 236 | 540 | brevegrave.case | 0 | 698
+scommaaccent | 236 | 540 | brevetilde.case | 0 | 698
+scommaaccent | 236 | 540 | circumflextilde.case | 0 | 698
+uni0455 | 236 | 540 | uni0309.case | 0 | 698
+uni0455 | 236 | 540 | circumflextilde.case | 0 | 698
+uni0455 | 236 | 540 | breveacute.case | 0 | 698
+uni0455 | 236 | 540 | circumflexhook.case | 0 | 698
+uni0455 | 236 | 540 | circumflexacute.case | 0 | 698
+scommaaccent | 236 | 540 | brevehook.case | 0 | 698
+uni0455 | 236 | 540 | brevehook.case | 0 | 698
+uni0455 | 236 | 540 | circumflexbreve.case | 0 | 698
+uni0455 | 236 | 540 | circumflexgrave.case | 0 | 698
+uni0455 | 236 | 540 | dieresiscaron.case | 0 | 698
+scommaaccent | 236 | 540 | circumflexbreve.case | 0 | 698
+scommaaccent | 236 | 540 | brevegrave.case | 0 | 698
+scommaaccent | 236 | 540 | breveacute.case | 0 | 698
+uni0455 | 236 | 540 | brevetilde.case | 0 | 698
+scommaaccent | 236 | 540 | circumflexgrave.case | 0 | 698
+scommaaccent | 236 | 540 | dieresismacron.case | 0 | 698
+scommaaccent | 236 | 540 | circumflexhook.case | 0 | 698
+
+### marks_modified: 154
+
+base_glyph | mark_glyph | diff_x | diff_y
+--- | --- | --- | --- | 
+d | uni0315 | -21.0 | 0.0
+L | uni0315 | -17.0 | 0.0
+E | uni0328 | -17.0 | 0.0
+u | uni0328 | -15.0 | -1.0
+A | uni0328 | -15.0 | 0.0
+t | uni0315 | -15.0 | 0.0
+l | uni0315 | -14.0 | 0.0
+a.alt01 | uni0328 | -14.0 | 0.0
+AE | uni0301 | -12.0 | 0.0
+AE | dieresiscaron | -12.0 | 0.0
+AE | uni030A | -12.0 | 0.0
+AE | circumflexacute | -12.0 | 0.0
+AE | dieresismacron | -12.0 | 0.0
+AE | circumflextilde | -12.0 | 0.0
+AE | brevegrave | -12.0 | 0.0
+AE | circumflexgrave.case | -12.0 | 0.0
+AE | uni0309.case | -12.0 | 0.0
+AE | uni0300 | -12.0 | 0.0
+AE | circumflexhook.case | -12.0 | 0.0
+AE | circumflexbreve.case | -12.0 | 0.0

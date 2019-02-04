@@ -1,0 +1,76 @@
+**Diffenator**
+
+Displaying the 20 most significant items in each table. To increase use the '-ol' flag
+
+
+****names new: 31****
+
+id                  string              
+(0, 1, 0, 0)        Copyright 2018 I... 
+(1, 1, 0, 0)        IBM Plex Sans Co... 
+(2, 1, 0, 0)        Bold                
+(3, 1, 0, 0)        1.1;IBM ;IBMPlex... 
+(4, 1, 0, 0)        IBM Plex Sans Co... 
+(5, 1, 0, 0)        Version 1.1         
+(6, 1, 0, 0)        IBMPlexSansCond-... 
+(7, 1, 0, 0)        IBM Plex™ is a t... 
+(7, 3, 1, 1033)     IBM Plex™ is a t... 
+(8, 1, 0, 0)        Bold Monday         
+(8, 3, 1, 1033)     Bold Monday         
+(9, 1, 0, 0)        Mike Abbink, Pau... 
+(9, 3, 1, 1033)     Mike Abbink, Pau... 
+(11, 1, 0, 0)       http://www.boldm... 
+(11, 3, 1, 1033)... http://www.boldm... 
+(12, 1, 0, 0)       http://www.ibm.c... 
+(12, 3, 1, 1033)... http://www.ibm.c... 
+(13, 1, 0, 0)       This Font Softwa... 
+(13, 3, 1, 1033)... This Font Softwa... 
+(14, 1, 0, 0)       http://scripts.s... 
+
+****kerns new: 92****
+
+left                right               value               string              
+tcaron              jacute              46                  ť                   
+IJacute             quotesinglbase      -35                 ‚                   
+IJacute             ellipsis            -35                 …                   
+IJacute             comma               -35                 ,                   
+IJacute             period              -35                 .                   
+IJacute             quotedblbase        -35                 „                   
+questiondown        IJacute             -30                 ¿                   
+Thorn               Jacute              -29                 Þ                   
+bracketleft         jacute              20                  [                   
+braceleft           jacute              20                  {                   
+aogonek             jacute              20                  ą                   
+Lslash              IJacute             -15                 Ł                   
+Lcaron              IJacute             -15                 Ľ                   
+Lcommaaccent        IJacute             -15                 Ļ                   
+L                   IJacute             -15                 L                   
+Lacute              IJacute             -15                 Ĺ                   
+G                   Jacute              -12                 G                   
+Gcircumflex         Jacute              -12                 Ĝ                   
+Gcommaaccent        Jacute              -12                 Ģ                   
+Gbreve              Jacute              -12                 Ğ                   
+
+****kerns modified: 52****
+
+left                right               diff                string              
+g.alt02             underscore          -126.0              _                   
+lcaron              g.alt02             80.0                ľ                   
+g.alt02             slash               -73.0               /                   
+parenleft           g.alt02             47.0                (                   
+Ycircumflex         g.alt02             46.0                Ŷ                   
+uni1EF8             g.alt02             46.0                Ỹ                   
+Ygrave              g.alt02             46.0                Ỳ                   
+uni1EF4             g.alt02             46.0                Ỵ                   
+uni1EF6             g.alt02             46.0                Ỷ                   
+Yacute              g.alt02             46.0                Ý                   
+Ydieresis           g.alt02             46.0                Ÿ                   
+Y                   g.alt02             46.0                Y                   
+g.alt02             Aacute              -44.0               Á                   
+g.alt02             uni1EB6             -44.0               Ặ                   
+g.alt02             uni1EB4             -44.0               Ẵ                   
+g.alt02             uni1EA8             -44.0               Ẩ                   
+g.alt02             Aring               -44.0               Å                   
+g.alt02             uni1EAE             -44.0               Ắ                   
+g.alt02             Adieresis           -44.0               Ä                   
+g.alt02             uni1EA2             -44.0               Ả                   

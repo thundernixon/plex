@@ -1,0 +1,160 @@
+# Diffenator
+
+Displaying the 20 most significant items in each table. To increase use the '-ol' flag
+
+
+### names new: 35
+
+id | string
+--- | --- | 
+(0, 1, 0, 0) | Copyright 2018 IBM Corp. All rights reserved.
+(1, 1, 0, 0) | IBM Plex Serif Thin
+(2, 1, 0, 0) | Regular
+(3, 1, 0, 0) | 2.5;IBM ;IBMPlexSerif-Thin
+(4, 1, 0, 0) | IBM Plex Serif Thin
+(5, 1, 0, 0) | Version 2.5
+(6, 1, 0, 0) | IBMPlexSerif-Thin
+(7, 1, 0, 0) | IBM Plex™ is a trademark of IBM Corp, registered in many jurisdictions worldwide.
+(7, 3, 1, 1033) | IBM Plex™ is a trademark of IBM Corp, registered in many jurisdictions worldwide.
+(8, 1, 0, 0) | Bold Monday
+(8, 3, 1, 1033) | Bold Monday
+(9, 1, 0, 0) | Mike Abbink, Paul van der Laan, Pieter van Rosmalen
+(9, 3, 1, 1033) | Mike Abbink, Paul van der Laan, Pieter van Rosmalen
+(11, 1, 0, 0) | http://www.boldmonday.com
+(11, 3, 1, 1033) | http://www.boldmonday.com
+(12, 1, 0, 0) | http://www.ibm.com
+(12, 3, 1, 1033) | http://www.ibm.com
+(13, 1, 0, 0) | This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
+(13, 3, 1, 1033) | This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
+(14, 1, 0, 0) | http://scripts.sil.org/OFL
+
+### names modified: 2
+
+id | string_a | string_b
+--- | --- | --- | 
+(3, 3, 1, 1033) | 2.1;IBM ;IBMPlexSerif-Thin | 2.5;IBM ;IBMPlexSerif-Thin
+(5, 3, 1, 1033) | Version 2.1 | Version 2.5
+
+### attribs modified: 11
+
+table | attrib | value_a | value_b
+--- | --- | --- | --- | 
+OS/2 | usWinDescent | 275 | 286
+OS/2 | sTypoDescender | -220 | -275
+OS/2 | usWinAscent | 1025 | 1150
+OS/2 | ulUnicodeRange2 | 1342185595 | 1342185531
+OS/2 | sTypoAscender | 780 | 1025
+OS/2 | sTypoLineGap | 300 | 0
+OS/2 | yStrikeoutSize | 18 | 17
+head | fontRevision | 2.00099 | 2.00499
+head | modified | 2018/02/16 08:54:28 | 2018/09/19 11:49:41
+post | underlineThickness | 18 | 17
+post | underlinePosition | -123 | -124
+
+### glyphs new: 3
+
+glyph | area | string
+--- | --- | --- | 
+currency | -38233 | ¤
+uni2032 | -5928 | ′
+uni2033 | -11856 | ″
+
+### glyphs modified: 40
+
+glyph | diff | string
+--- | --- | --- | 
+greater | 0.0427 | >
+less | 0.042 | <
+backslash | 0.0239 | \
+uni2079 | 0.0238 | ⁹
+slash | 0.0237 | /
+lessequal | 0.0218 | ≤
+greaterequal | 0.0218 | ≥
+plusminus | 0.0209 | ±
+ordmasculine | 0.0195 | º
+eth | 0.0189 | ð
+uni2113 | 0.0185 | ℓ
+uni2089 | 0.0179 | ₉
+uni2076 | 0.0177 | ⁶
+uni2078 | 0.0172 | ⁸
+uni0431 | 0.0161 | б
+ordfeminine | 0.0159 | ª
+uni2075 | 0.0153 | ⁵
+uni2080 | 0.0148 | ₀
+dagger | 0.0147 | †
+daggerdbl | 0.0146 | ‡
+
+### kerns new: 52
+
+left | right | value | string
+--- | --- | --- | --- | 
+onesuperior | Jacute | -90 | ¹
+t | Jacute | 22 | t
+uni0163 | Jacute | 22 | ţ
+uni021B | Jacute | 22 | ț
+tbar | Jacute | 22 | ŧ
+tcaron | Jacute | 22 | ť
+exclamdown | jacute | 20 | ¡
+Jacute | g.alt02 | -10 | 
+Jacute | g | -10 | g
+Ldot | Jacute | 10 | Ŀ
+Jacute | gdotaccent | -10 | ġ
+eng | Jacute | -10 | ŋ
+L | Jacute | 10 | L
+Lacute | Jacute | 10 | Ĺ
+Jacute | gbreve | -10 | ğ
+iogonek | jacute | -10 | į
+dotlessi | Jacute | -10 | ı
+germandbls.alt01 | jacute | 10 | ß
+uni1E9E | Jacute | -10 | ẞ
+Lcaron | Jacute | 10 | Ľ
+
+### kerns modified: 62
+
+left | right | diff | string
+--- | --- | --- | --- | 
+g.alt02 | underscore | -90.0 | _
+Ygrave | g.alt02 | 70.0 | Ỳ
+Ycircumflex | g.alt02 | 70.0 | Ŷ
+Ydieresis | g.alt02 | 70.0 | Ÿ
+uni1EF6 | g.alt02 | 70.0 | Ỷ
+uni1EF4 | g.alt02 | 70.0 | Ỵ
+Yacute | g.alt02 | 70.0 | Ý
+uni1EF8 | g.alt02 | 70.0 | Ỹ
+Y | g.alt02 | 70.0 | Y
+parenleft | g.alt02 | 60.0 | (
+g.alt02 | slash | -50.0 | /
+Wgrave | g.alt02 | 45.0 | Ẁ
+Wcircumflex | g.alt02 | 45.0 | Ŵ
+f | g.alt02 | 45.0 | f
+W | g.alt02 | 45.0 | W
+Wdieresis | g.alt02 | 45.0 | Ẅ
+Wacute | g.alt02 | 45.0 | Ẃ
+g.alt02 | uni0237 | -40.0 | ȷ
+g.alt02 | jcircumflex | -40.0 | ĵ
+threesuperior | g.alt02 | 40.0 | ³
+
+### marks_new: 3534
+
+base_glyph | base_x | base_y | mark_glyph | mark_x | mark_y
+--- | --- | --- | --- | --- | --- | 
+rcommaaccent | 215 | 540 | brevetilde.case | 0 | 698
+rcommaaccent | 215 | 540 | circumflexacute.case | 0 | 698
+rcommaaccent | 215 | 540 | brevegrave.case | 0 | 698
+rcommaaccent | 215 | 540 | brevehook.case | 0 | 698
+rcommaaccent | 215 | 540 | dieresismacron.case | 0 | 698
+rcommaaccent | 215 | 540 | breveacute.case | 0 | 698
+rcommaaccent | 215 | 540 | circumflexgrave.case | 0 | 698
+rcommaaccent | 215 | 540 | circumflexbreve.case | 0 | 698
+rcommaaccent | 215 | 540 | circumflexhook.case | 0 | 698
+rcommaaccent | 215 | 540 | uni0309.case | 0 | 698
+rcommaaccent | 215 | 540 | dieresiscaron.case | 0 | 698
+rcommaaccent | 215 | 540 | circumflextilde.case | 0 | 698
+uni0455 | 226 | 540 | brevegrave.case | 0 | 698
+scommaaccent | 226 | 540 | brevetilde.case | 0 | 698
+scommaaccent | 226 | 540 | circumflextilde.case | 0 | 698
+uni0455 | 226 | 540 | uni0309.case | 0 | 698
+uni0455 | 226 | 540 | circumflextilde.case | 0 | 698
+uni0455 | 226 | 540 | breveacute.case | 0 | 698
+uni0455 | 226 | 540 | circumflexhook.case | 0 | 698
+uni0455 | 226 | 540 | circumflexacute.case | 0 | 698

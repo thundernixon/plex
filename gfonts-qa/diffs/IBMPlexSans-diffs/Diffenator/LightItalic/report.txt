@@ -1,0 +1,205 @@
+**Diffenator**
+
+Displaying the 20 most significant items in each table. To increase use the '-ol' flag
+
+
+****names new: 35****
+
+id                  string              
+(0, 1, 0, 0)        Copyright 2018 I... 
+(1, 1, 0, 0)        IBM Plex Sans Li... 
+(2, 1, 0, 0)        Italic              
+(3, 1, 0, 0)        3.1;IBM ;IBMPlex... 
+(4, 1, 0, 0)        IBM Plex Sans Li... 
+(5, 1, 0, 0)        Version 3.1         
+(6, 1, 0, 0)        IBMPlexSans-Ligh... 
+(7, 1, 0, 0)        IBM Plex™ is a t... 
+(7, 3, 1, 1033)     IBM Plex™ is a t... 
+(8, 1, 0, 0)        Bold Monday         
+(8, 3, 1, 1033)     Bold Monday         
+(9, 1, 0, 0)        Mike Abbink, Pau... 
+(9, 3, 1, 1033)     Mike Abbink, Pau... 
+(11, 1, 0, 0)       http://www.boldm... 
+(11, 3, 1, 1033)... http://www.boldm... 
+(12, 1, 0, 0)       http://www.ibm.c... 
+(12, 3, 1, 1033)... http://www.ibm.c... 
+(13, 1, 0, 0)       This Font Softwa... 
+(13, 3, 1, 1033)... This Font Softwa... 
+(14, 1, 0, 0)       http://scripts.s... 
+
+****names modified: 2****
+
+id                  string_a            string_b            
+(3, 3, 1, 1033)     2.1;IBM ;IBMPlex... 3.1;IBM ;IBMPlex... 
+(5, 3, 1, 1033)     Version 2.1         Version 3.1         
+
+****attribs modified: 4****
+
+table               attrib              value_a             value_b             
+OS/2                ulUnicodeRange1     2684355183          2684355311          
+OS/2                ulCodePageRange1... 536871319           536871327           
+head                fontRevision        2.00099             3.00099             
+head                modified            2018/02/16 09:00... 2018/11/21 09:06... 
+
+****glyphs new: 78****
+
+glyph               area                string              
+Alpha               -94113              Α                   
+Alphatonos          -102574             Ά                   
+Beta                -123655             Β                   
+Chi                 -86711              Χ                   
+Epsilon             -92506              Ε                   
+Epsilontonos        -100967             Έ                   
+Eta                 -99991              Η                   
+Etatonos            -108451             Ή                   
+Gamma               -56026              Γ                   
+Iota                -60184              Ι                   
+Iotadieresis        -70967              Ϊ                   
+Iotatonos           -68644              Ί                   
+Kappa               -95664              Κ                   
+Lambda              -80075              Λ                   
+Mu                  -130346             Μ                   
+Nu                  -115002             Ν                   
+Omegatonos          -119460             Ώ                   
+Omicron             -104861             Ο                   
+Omicrontonos        -113322             Ό                   
+Phi                 -143889             Φ                   
+
+****glyphs missing: 1****
+
+glyph               area                string              
+uniEBE7             -121751                                
+
+****glyphs modified: 28****
+
+glyph               diff                string              
+Omega               0.0435              Ω                   
+uni20A1             0.039               ₡                   
+gdotaccent          0.0385              ġ                   
+gcommaaccent        0.0385              ģ                   
+pi                  0.0382              π                   
+lslash              0.0377              ł                   
+fl                  0.0312              ﬂ                   
+Delta               0.0303              ∆                   
+ordfeminine         0.0279              ª                   
+ordmasculine        0.0225              º                   
+uni21B1             0.0224              ↱                   
+product             0.0222              ∏                   
+uni21B3             0.022               ↳                   
+uni21B0             0.021               ↰                   
+parenright          0.0208              )                   
+uni21B2             0.0207              ↲                   
+mu                  0.0183              µ                   
+uni20B5             0.0175              ₵                   
+uni2B0E             0.0173              ⬎                   
+uni2B0F             0.0171              ⬏                   
+
+****kerns new: 316****
+
+left                right               value               string              
+Delta               quoteleft           -98                 ∆‘                  
+Delta               quotedblleft        -98                 ∆“                  
+Delta               trademark           -95                 ∆™                  
+quoteright          Delta               -94                 ’∆                  
+quotedblright       Delta               -94                 ”∆                  
+Delta               quoteright          -88                 ∆’                  
+Delta               quotedblright       -88                 ∆”                  
+Delta               uni2077             -86                 ∆⁷                  
+Delta               registered          -85                 ∆®                  
+trademark           Delta               -83                 ™∆                  
+Delta               quotesingle         -76                 ∆'                  
+Delta               quotedbl            -76                 ∆"                  
+uni2077             Delta               -76                 ⁷∆                  
+Delta               asterisk            -76                 ∆*                  
+Delta               uni2079             -75                 ∆⁹                  
+quotedblleft        Delta               -70                 “∆                  
+quoteleft           Delta               -70                 ‘∆                  
+Delta               uni2078             -69                 ∆⁸                  
+quotesingle         Delta               -68                 '∆                  
+quotedbl            Delta               -68                 "∆                  
+
+****kerns modified: 67****
+
+left                right               diff                string              
+g.alt02             underscore          -125.0              _                   
+g.alt02             slash               -90.0               /                   
+g.alt02             period              -71.0               .                   
+g.alt02             comma               -71.0               ,                   
+g.alt02             quotesinglbase      -71.0               ‚                   
+g.alt02             quotedblbase        -71.0               „                   
+g.alt02             ellipsis            -71.0               …                   
+g.alt02             uni2082             -44.0               ₂                   
+Ydieresis           g.alt02             42.0                Ÿ                   
+uni1EF8             g.alt02             42.0                Ỹ                   
+Y                   g.alt02             42.0                Y                   
+Ygrave              g.alt02             42.0                Ỳ                   
+uni1EF4             g.alt02             42.0                Ỵ                   
+Ycircumflex         g.alt02             42.0                Ŷ                   
+Yacute              g.alt02             42.0                Ý                   
+uni1EF6             g.alt02             42.0                Ỷ                   
+g.alt02             X                   -40.0               X                   
+g.alt02             uni2079             -38.0               ⁹                   
+g.alt02             uni2083             -36.0               ₃                   
+g.alt02             fl                  -34.0               ﬂ                   
+
+****metrics modified: 10****
+
+glyph               diff_adv            
+Omega               12.0                
+fl                  10.0                
+pi                  9.0                 
+lslash              7.0                 
+Delta               5.0                 
+gdotaccent          2.0                 
+gcommaaccent        2.0                 
+dcroat              2.0                 
+semicolon           1.0                 
+colon               1.0                 
+
+****marks_new: 3680****
+
+base_glyph          base_x              base_y              mark_glyph          mark_x              mark_y              
+racute              70                  0                   uni0326             0                   0                   
+racute              70                  0                   uni0327             0                   0                   
+rcaron              70                  0                   uni0326             0                   0                   
+racute              70                  0                   uni0323             0                   0                   
+rcaron              70                  0                   uni0327             0                   0                   
+rcaron              70                  0                   uni0323             0                   0                   
+uni0420             82                  0                   uni0323             0                   0                   
+uni0420             82                  0                   uni0327             0                   0                   
+uni0420             82                  0                   uni0326             0                   0                   
+uni0455             262                 540                 circumflexacute.... 0                   698                 
+scommaaccent        262                 540                 breveacute.case     0                   698                 
+scommaaccent        262                 540                 brevehook.case      0                   698                 
+uni0455             262                 540                 dieresiscaron.ca... 0                   698                 
+scommaaccent        262                 540                 dieresiscaron.ca... 0                   698                 
+scommaaccent        262                 540                 circumflexbreve.... 0                   698                 
+uni0455             262                 540                 brevegrave.case     0                   698                 
+scommaaccent        262                 540                 uni0309.case        0                   698                 
+uni0455             262                 540                 circumflexgrave.... 0                   698                 
+uni0455             262                 540                 circumflexbreve.... 0                   698                 
+uni0455             262                 540                 breveacute.case     0                   698                 
+
+****marks_modified: 39****
+
+base_glyph          mark_glyph          diff_x              diff_y              
+AE                  circumflexbreve.... 68.0                0.0                 
+AE                  breveacute.case     68.0                0.0                 
+AE                  uni0308             68.0                0.0                 
+AE                  brevetilde          68.0                0.0                 
+AE                  uni030A             68.0                0.0                 
+AE                  circumflexbreve     68.0                0.0                 
+AE                  circumflextilde     68.0                0.0                 
+AE                  circumflexgrave     68.0                0.0                 
+AE                  uni0302             68.0                0.0                 
+AE                  dieresismacron.c... 68.0                0.0                 
+AE                  circumflexacute.... 68.0                0.0                 
+AE                  dieresiscaron.ca... 68.0                0.0                 
+AE                  dieresiscaron       68.0                0.0                 
+AE                  uni0309.case        68.0                0.0                 
+AE                  circumflexhook      68.0                0.0                 
+AE                  brevehook.case      68.0                0.0                 
+AE                  uni0301             68.0                0.0                 
+AE                  uni0300             68.0                0.0                 
+AE                  uni0306             68.0                0.0                 
+AE                  breveacute          68.0                0.0                 

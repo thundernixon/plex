@@ -1,0 +1,204 @@
+**Diffenator**
+
+Displaying the 20 most significant items in each table. To increase use the '-ol' flag
+
+
+****names new: 35****
+
+id                  string              
+(0, 1, 0, 0)        Copyright 2018 I... 
+(1, 1, 0, 0)        IBM Plex Serif S... 
+(2, 1, 0, 0)        Regular             
+(3, 1, 0, 0)        2.5;IBM ;IBMPlex... 
+(4, 1, 0, 0)        IBM Plex Serif S... 
+(5, 1, 0, 0)        Version 2.5         
+(6, 1, 0, 0)        IBMPlexSerif-Sem... 
+(7, 1, 0, 0)        IBM Plex™ is a t... 
+(7, 3, 1, 1033)     IBM Plex™ is a t... 
+(8, 1, 0, 0)        Bold Monday         
+(8, 3, 1, 1033)     Bold Monday         
+(9, 1, 0, 0)        Mike Abbink, Pau... 
+(9, 3, 1, 1033)     Mike Abbink, Pau... 
+(11, 1, 0, 0)       http://www.boldm... 
+(11, 3, 1, 1033)... http://www.boldm... 
+(12, 1, 0, 0)       http://www.ibm.c... 
+(12, 3, 1, 1033)... http://www.ibm.c... 
+(13, 1, 0, 0)       This Font Softwa... 
+(13, 3, 1, 1033)... This Font Softwa... 
+(14, 1, 0, 0)       http://scripts.s... 
+
+****names modified: 2****
+
+id                  string_a            string_b            
+(3, 3, 1, 1033)     2.1;IBM ;IBMPlex... 2.5;IBM ;IBMPlex... 
+(5, 3, 1, 1033)     Version 2.1         Version 2.5         
+
+****attribs modified: 15****
+
+table               attrib              value_a             value_b             
+OS/2                usWinDescent        275                 286                 
+OS/2                sTypoDescender      -220                -275                
+OS/2                usWinAscent         1025                1150                
+OS/2                ulUnicodeRange2     1342185595          1342185531          
+OS/2                sTypoAscender       780                 1025                
+OS/2                sTypoLineGap        300                 0                   
+OS/2                yStrikeoutSize      62                  58                  
+head                xMax                1295                1264                
+head                fontRevision        2.00099             2.00499             
+head                yMax                1144                1142                
+head                xMin                -290                -282                
+head                yMin                -278                -274                
+head                modified            2018/02/16 08:54... 2018/09/19 11:49... 
+post                underlineThickne... 62                  58                  
+post                underlinePositio... -56                 -58                 
+
+****glyphs new: 3****
+
+glyph               area                string              
+currency            -163284             ¤                   
+uni2032             -31213              ′                   
+uni2033             -62426              ″                   
+
+****glyphs modified: 794****
+
+glyph               diff                string              
+gcommaaccent        0.0863              ģ                   
+gdotaccent          0.0851              ġ                   
+gbreve              0.076               ğ                   
+gcircumflex         0.0756              ĝ                   
+uni045E             0.0738              ў                   
+uni04F3             0.0736              ӳ                   
+gbreve.alt01        0.0734              ğ                   
+gcircumflex.alt0... 0.0724              ĝ                   
+uni1EB5.alt01       0.0721              ẵ                   
+dcaron              0.072               ď                   
+ycircumflex         0.0709              ŷ                   
+uni1EA9.alt01       0.0708              ẩ                   
+uni1EB3.alt01       0.0708              ẳ                   
+uni1EAB.alt01       0.0708              ẫ                   
+uni1EF9             0.0702              ỹ                   
+ydieresis           0.0702              ÿ                   
+uni04F1             0.0702              ӱ                   
+g                   0.07                g                   
+gcommaaccent.alt... 0.0698              ģ                   
+uni1EF7             0.0698              ỷ                   
+
+****kerns new: 61****
+
+left                right               value               string              
+braceleft           jacute              98                  {                   
+bracketleft         jacute              98                  [                   
+lcaron              IJacute             67                  ľ                   
+exclamdown          jacute              55                  ¡                   
+Eth                 Jacute              -23                 Ð                   
+D                   Jacute              -23                 D                   
+Dcaron              Jacute              -23                 Ď                   
+Dcroat              Jacute              -23                 Đ                   
+zcaron              Jacute              11                  ž                   
+zacute              Jacute              11                  ź                   
+zdotaccent          Jacute              11                  ż                   
+z                   Jacute              11                  z                   
+Jacute              g.alt02             -10                                     
+idieresis           Jacute              10                  ï                   
+jacute              Zdotaccent          -10                 Ż                   
+uni1EC9             Jacute              10                  ỉ                   
+Jacute              g                   -10                 g                   
+Ldot                Jacute              10                  Ŀ                   
+icircumflex         Jacute              10                  î                   
+ibreve              Jacute              10                  ĭ                   
+
+****kerns modified: 96****
+
+left                right               diff                string              
+parenleft           g.alt02             81.0                (                   
+f                   g.alt02             80.0                f                   
+g.alt02             underscore          -66.0               _                   
+g.alt02             quotesinglbase      -63.0               ‚                   
+g.alt02             comma               -63.0               ,                   
+g.alt02             period              -63.0               .                   
+g.alt02             quotedblbase        -63.0               „                   
+g.alt02             ellipsis            -63.0               …                   
+Ygrave              g.alt02             62.0                Ỳ                   
+Ycircumflex         g.alt02             62.0                Ŷ                   
+Ydieresis           g.alt02             62.0                Ÿ                   
+uni1EF6             g.alt02             62.0                Ỷ                   
+uni1EF4             g.alt02             62.0                Ỵ                   
+Yacute              g.alt02             62.0                Ý                   
+uni1EF8             g.alt02             62.0                Ỹ                   
+Y                   g.alt02             62.0                Y                   
+g.alt02             slash               -50.0               /                   
+g.alt02             Aacute              -37.0               Á                   
+g.alt02             Adieresis           -37.0               Ä                   
+g.alt02             Atilde              -37.0               Ã                   
+
+****metrics modified: 689****
+
+glyph               diff_adv            
+uni044C             34.0                
+uni045A             32.0                
+perthousand         31.0                
+uni20A8             29.0                
+uni0496             29.0                
+uni04DC             28.0                
+uni0416             28.0                
+uni04C1             28.0                
+uni0409             27.9999999999998... 
+uni2116             27.0                
+uni0424             27.0                
+W                   26.0                
+uni0429             26.0                
+uni0449             26.0                
+Wdieresis           26.0                
+uni0497             26.0                
+Wgrave              26.0                
+uni20A9             26.0                
+Wacute              26.0                
+Wcircumflex         26.0                
+
+****marks_new: 3534****
+
+base_glyph          base_x              base_y              mark_glyph          mark_x              mark_y              
+uni0455             236                 540                 dieresiscaron.ca... -2                  698                 
+scommaaccent        236                 540                 dieresiscaron.ca... -2                  698                 
+uni0455             236                 540                 circumflexbreve.... -1                  698                 
+scommaaccent        236                 540                 circumflexbreve.... -1                  698                 
+uni0455             236                 540                 brevegrave.case     0                   698                 
+scommaaccent        236                 540                 brevetilde.case     0                   698                 
+scommaaccent        236                 540                 circumflextilde.... 0                   698                 
+uni0455             236                 540                 uni0309.case        0                   698                 
+uni0455             236                 540                 circumflextilde.... 0                   698                 
+uni0455             236                 540                 breveacute.case     0                   698                 
+uni0455             236                 540                 circumflexhook.c... 0                   698                 
+uni0455             236                 540                 circumflexacute.... 0                   698                 
+scommaaccent        236                 540                 brevehook.case      0                   698                 
+uni0455             236                 540                 brevehook.case      0                   698                 
+uni0455             236                 540                 circumflexgrave.... 0                   698                 
+scommaaccent        236                 540                 brevegrave.case     0                   698                 
+scommaaccent        236                 540                 breveacute.case     0                   698                 
+uni0455             236                 540                 brevetilde.case     0                   698                 
+scommaaccent        236                 540                 circumflexgrave.... 0                   698                 
+scommaaccent        236                 540                 dieresismacron.c... 0                   698                 
+
+****marks_modified: 470****
+
+base_glyph          mark_glyph          diff_x              diff_y              
+t                   uni0315             -10.0               16.0                
+A                   uni0328             -17.0               0.0                 
+a.alt01             uni0328             -17.0               0.0                 
+W                   brevehook           -16.0               0.0                 
+W                   circumflexgrave.... -16.0               0.0                 
+W                   circumflexgrave     -16.0               0.0                 
+W                   uni030B             -16.0               0.0                 
+W                   uni030A             -16.0               0.0                 
+W                   uni030C             -16.0               0.0                 
+W                   circumflextilde     -16.0               0.0                 
+W                   circumflexacute     -16.0               0.0                 
+W                   brevetilde          -16.0               0.0                 
+W                   uni0301             -16.0               0.0                 
+W                   circumflexhook.c... -16.0               0.0                 
+d                   uni0315             -16.0               0.0                 
+W                   uni0304             -16.0               0.0                 
+W                   uni0312             -16.0               0.0                 
+W                   uni0302             -16.0               0.0                 
+W                   uni0303             -16.0               0.0                 
+W                   breveacute          -16.0               0.0                 

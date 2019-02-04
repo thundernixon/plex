@@ -1,0 +1,176 @@
+**Diffenator**
+
+Displaying the 20 most significant items in each table. To increase use the '-ol' flag
+
+
+****names new: 35****
+
+id                  string              
+(0, 1, 0, 0)        Copyright 2018 I... 
+(1, 1, 0, 0)        IBM Plex Serif T... 
+(2, 1, 0, 0)        Italic              
+(3, 1, 0, 0)        2.5;IBM ;IBMPlex... 
+(4, 1, 0, 0)        IBM Plex Serif T... 
+(5, 1, 0, 0)        Version 2.5         
+(6, 1, 0, 0)        IBMPlexSerif-Thi... 
+(7, 1, 0, 0)        IBM Plex™ is a t... 
+(7, 3, 1, 1033)     IBM Plex™ is a t... 
+(8, 1, 0, 0)        Bold Monday         
+(8, 3, 1, 1033)     Bold Monday         
+(9, 1, 0, 0)        Mike Abbink, Pau... 
+(9, 3, 1, 1033)     Mike Abbink, Pau... 
+(11, 1, 0, 0)       http://www.boldm... 
+(11, 3, 1, 1033)... http://www.boldm... 
+(12, 1, 0, 0)       http://www.ibm.c... 
+(12, 3, 1, 1033)... http://www.ibm.c... 
+(13, 1, 0, 0)       This Font Softwa... 
+(13, 3, 1, 1033)... This Font Softwa... 
+(14, 1, 0, 0)       http://scripts.s... 
+
+****names modified: 2****
+
+id                  string_a            string_b            
+(3, 3, 1, 1033)     2.1;IBM ;IBMPlex... 2.5;IBM ;IBMPlex... 
+(5, 3, 1, 1033)     Version 2.1         Version 2.5         
+
+****attribs modified: 11****
+
+table               attrib              value_a             value_b             
+OS/2                usWinDescent        275                 286                 
+OS/2                sTypoDescender      -220                -275                
+OS/2                usWinAscent         1025                1150                
+OS/2                ulUnicodeRange2     1342185595          1342185531          
+OS/2                sTypoAscender       780                 1025                
+OS/2                sTypoLineGap        300                 0                   
+OS/2                yStrikeoutSize      18                  17                  
+head                fontRevision        2.00099             2.00499             
+head                modified            2018/02/16 08:54... 2018/09/19 11:49... 
+post                underlineThickne... 18                  17                  
+post                underlinePositio... -123                -124                
+
+****glyphs new: 3****
+
+glyph               area                string              
+currency            -33419              ¤                   
+uni2032             -5772               ′                   
+uni2033             -11544              ″                   
+
+****glyphs modified: 67****
+
+glyph               diff                string              
+uni20BA             0.0397              ₺                   
+uni20B4             0.0319              ₴                   
+lcaron              0.0276              ľ                   
+slash               0.0268              /                   
+uni20A4             0.0216              ₤                   
+uni04CF             0.0214              ӏ                   
+dagger              0.0211              †                   
+lacute              0.0209              ĺ                   
+lcommaaccent        0.0209              ļ                   
+l                   0.0209              l                   
+backslash           0.0204              \                   
+uni2158             0.0202              ⅘                   
+fl                  0.02                ﬂ                   
+uni2088             0.0197              ₈                   
+ldot                0.0195              ŀ                   
+uni2074             0.0183              ⁴                   
+daggerdbl           0.0183              ‡                   
+uni2085             0.0179              ₅                   
+uni2087             0.0173              ₇                   
+uni215C             0.0169              ⅜                   
+
+****kerns new: 111****
+
+left                right               value               string              
+braceleft           jacute              70                  {                   
+Jacute              Jacute              -37                                     
+IJ                  Jacute              -37                 Ĳ                   
+Uhungarumlaut       Jacute              -34                 Ű                   
+Udieresis           Jacute              -34                 Ü                   
+U                   Jacute              -34                 U                   
+Uacute              Jacute              -34                 Ú                   
+Utilde              Jacute              -34                 Ũ                   
+Uogonek             Jacute              -34                 Ų                   
+uni1EE4             Jacute              -34                 Ụ                   
+Ucircumflex         Jacute              -34                 Û                   
+Ubreve              Jacute              -34                 Ŭ                   
+Uring               Jacute              -34                 Ů                   
+Umacron             Jacute              -34                 Ū                   
+uni1EE6             Jacute              -34                 Ủ                   
+Ugrave              Jacute              -34                 Ù                   
+Jacute              uni2082             -30                 ₂                   
+at                  Jacute              -30                 @                   
+Jacute              uni1EA2             -25                 Ả                   
+Jacute              Acircumflex         -25                 Â                   
+
+****kerns modified: 29****
+
+left                right               diff                string              
+g.alt02             underscore          -100.0              _                   
+quotedblright       g.alt02             80.0                ”                   
+quoteright          g.alt02             80.0                ’                   
+Ygrave              g.alt02             55.0                Ỳ                   
+quotesinglbase      g.alt02             -55.0               ‚                   
+Ycircumflex         g.alt02             55.0                Ŷ                   
+Ydieresis           g.alt02             55.0                Ÿ                   
+uni1EF6             g.alt02             55.0                Ỷ                   
+uni1EF4             g.alt02             55.0                Ỵ                   
+comma               g.alt02             -55.0               ,                   
+Yacute              g.alt02             55.0                Ý                   
+period              g.alt02             -55.0               .                   
+quotedblbase        g.alt02             -55.0               „                   
+ellipsis            g.alt02             -55.0               …                   
+uni1EF8             g.alt02             55.0                Ỹ                   
+Y                   g.alt02             55.0                Y                   
+g.alt02             slash               -50.0               /                   
+g.alt02             trademark           45.0                ™                   
+g.alt02             onesuperior         30.0                ¹                   
+g.alt02             uni2077             20.0                ⁷                   
+
+****marks_new: 3632****
+
+base_glyph          base_x              base_y              mark_glyph          mark_x              mark_y              
+rcaron              68                  0                   uni0326             0                   0                   
+racute              68                  0                   uni0327             0                   0                   
+racute              68                  0                   uni0323             0                   0                   
+racute              68                  0                   uni0326             0                   0                   
+rcaron              68                  0                   uni0323             0                   0                   
+rcaron              68                  0                   uni0327             0                   0                   
+lcaron              73                  0                   uni0323             0                   0                   
+lacute              73                  0                   uni0326             0                   0                   
+lacute              73                  0                   uni0323             0                   0                   
+lcaron              73                  0                   uni0326             0                   0                   
+lacute              73                  0                   uni0327             0                   0                   
+lcaron              73                  0                   uni0327             0                   0                   
+tcaron              84                  0                   uni0327             0                   0                   
+tcaron              84                  0                   uni0323             0                   0                   
+tcaron              84                  0                   uni0326             0                   0                   
+uni0455             243                 540                 brevegrave.case     0                   698                 
+scommaaccent        243                 540                 brevetilde.case     0                   698                 
+scommaaccent        243                 540                 circumflextilde.... 0                   698                 
+uni0455             243                 540                 uni0309.case        0                   698                 
+uni0455             243                 540                 circumflextilde.... 0                   698                 
+
+****marks_modified: 39****
+
+base_glyph          mark_glyph          diff_x              diff_y              
+E                   uni0323             -22.0               0.0                 
+E                   uni0327             -22.0               0.0                 
+E                   uni0326             -22.0               0.0                 
+AE                  uni0301             -21.0               0.0                 
+AE                  dieresiscaron       -21.0               0.0                 
+AE                  uni030A             -21.0               0.0                 
+AE                  circumflexacute     -21.0               0.0                 
+AE                  dieresismacron      -21.0               0.0                 
+AE                  circumflextilde     -21.0               0.0                 
+AE                  brevegrave          -21.0               0.0                 
+AE                  circumflexgrave.... -21.0               0.0                 
+AE                  uni0309.case        -21.0               0.0                 
+AE                  uni0300             -21.0               0.0                 
+AE                  circumflexhook.c... -21.0               0.0                 
+AE                  circumflexbreve.... -21.0               0.0                 
+AE                  circumflexacute.... -21.0               0.0                 
+AE                  brevehook           -21.0               0.0                 
+AE                  brevegrave.case     -21.0               0.0                 
+AE                  uni0304             -21.0               0.0                 
+AE                  uni030C             -21.0               0.0                 

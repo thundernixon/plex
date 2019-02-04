@@ -1,26 +1,23 @@
 #!/bin/bash
 
-# compares fonts in "before" (old) directory to fonts in "after" (new) directory with Google Fonts Diffenator to show changes
+# compares fonts in new directory with fonts as hosted on Google Fonts to any show changes
 # 
 # Example:
-# diff-fonts gfonts-qa/currently-hosted-fonts/ibmplexsans IBM-Plex-Sans/fonts/complete/ttf
-# diff-fonts gfonts-qa/currently-hosted-fonts/ibmplexsanscondensed IBM-Plex-Sans-Condensed/fonts/complete/ttf
+# diff-fonts IBM-Plex-Sans/fonts/complete/ttf
 
 set -e
 
 # get args
 fontsBefore="$1"
-fontsAfter="$2"
 
-# echo $fontsBefore
-# echo $fontsAfter
+# make list of TTFs
+ttfs=$(ls $fontsBefore/*.ttf)
 
-for file in $fontsAfter/*.ttf; do 
-    fileName=$(basename $file)
-    echo diffing $fileName
-    # check that file exists in 
-    if [ -f $fontsBefore/$fileName ]; then
-        # diffenator <font_BEFORE> <font_AFTER> -r <gif_output_directory>
-        diffenator $fontsBefore/$fileName $file -r $fontsBefore/${fileName/".ttf"/"-diff_gifs"} -ol 200
-    fi
+# get font family name for "out" folder
+for ttf in $ttfs; do
+    filename=$(basename $ttf)
+    fontname=${filename/"-"*/""}
 done
+
+# run QA script
+gftools qa -gf --diffenator $ttfs -o $fontname-diffs
